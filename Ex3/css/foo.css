@@ -1,0 +1,39 @@
+#container{
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 1.5%;
+    width: 600px;
+    height: 250px;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    padding:10px;
+}
+#question{
+    font-size: 20px;
+    font-weight: bold;
+    height:50px;
+    
+}
+
+#answer-form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;    
+    height: 150px;
+        
+}
+
+#choices{
+    height:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#submit{
+    width:65px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: auto;
+    margin-left:auto;
+}
